@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Cars</title>
+    <style>
+        /* General Page Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .nav-list {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-list li a:hover {
+            color: #ffd700;
+        }
+
+        /* Section Styling */
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px;
+        }
+
+        /* Parallax Background */
+        .parallax {
+            background-image: url('A226474_web_2880.gif');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Car Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .desc {
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div>
+            <img src="UC_logo.png" width="80" height="80">
+        </div>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cars">Cars</a></li>
+            <li><a href="#carinfo">Car Info</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="parallax">
+        <h1>UPDATE CARS</h1>
+        <p>Your dream car awaits!</p>
+        <img src="UC_logo.png" width="200">
+    </section>
+
+    <!-- Cars Section -->
+    <section id="cars">
+        <h1>Our Cars</h1>
+        <div class="gallery">
+            <div>
+                <img src="Screenshot 2025-01-29 185403.png" alt="Porsche Panamera">
+                <div class="desc">PORSCHE PANAMERA V6 3LITRE ENGINE</div>
+            </div>
+            <div>
+                <img src="Screenshot 2024-08-15 200658.png" alt="Audi Q5">
+                <div class="desc">AUDI Q5 2.0TI</div>
+            </div>
+            <div>
+                <img src="Screenshot 2024-08-15 200733.png" alt="Volvo S60">
+                <div class="desc">VOLVO S60 POLE STAR</div>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href="c:\Update Cars\cars.html" target="_blank">  
+                <img src="Screenshot 2024-08-15 202158.png" alt="Porsche Panamera" width="400" height="300">
+            </a>
+            <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+              Audi A6 Matrix
+            </div>
+          
+            <div class="gallery">
+              <a href="c:\Update Cars\cars.html" target="_blank">  
+                  <img src="Screenshot 2024-08-15 202142.png" alt="Porsche Panamera" width="400" height="300">
+              </a>
+              <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+                B M W X3 
+              </div>
+              <div class="gallery">
+                <a href="c:\Update Cars\cars.html" target="_blank">  
+                    <img src="Screenshot 2024-08-15 202002.png" alt="Porsche Panamera" width="400" height="300">
+                </a>
+                <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+                  MERCEDES BENZ A200D 
+                </div>
+          
+          
+                <div class="gallery">
+                  <a href="c:\Update Cars\cars.html" target="_blank">  
+                      <img src="Screenshot 2024-08-15 202122.png" alt="Porsche Panamera" width="400" height="300">
+                  </a>
+                  <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+                    JAGUAR XF 
+                  </div>
+          
+                  <div class="gallery">
+                    <a href="c:\Update Cars\cars.html" target="_blank">  
+                        <img src="Screenshot 2025-01-29 215250.png" alt="Porsche Panamera" width="400" height="300">
+                    </a>
+                    <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+                      Rextron Ssanyang 
+                    </div>
+          
+                    <div class="gallery">
+                      <a href="c:\Update Cars\cars.html" target="_blank">  
+                          <img src="Screenshot 2024-08-15 201900.png" alt="Porsche Panamera" width="400" height="300">
+                      </a>
+                      <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+                        MERCEDES BENZ E280 
+                      </div>
+          
+                <div class="gallery">
+                  <a href="c:\Update Cars\cars.html" target="_blank"> 
+                    <img src="Screenshot 2024-08-15 200238.png" alt="Mountains" width="400" height="300">
+                  </a>
+                  <div class="desc" style="background-color: rgba(0, 4, 8, 0); color: rgb(128, 126, 126); padding: 10px;">
+                  B M W 520d
+                </div>
+    </section>
+
+    <!-- Car Info Section -->
+    <section id="carinfo">
+        <h1>Car Information</h1>
+        <p>🚘 PORSCHE PANAMERA V6 3LITRE ENGINE</p>
+        <p>🔹 Diesel variant | 🔹 35,000 KM | 🔹 ₹40,00,000 | 🔹 HORSEPOWER 420 | 🔹 Insurance current</p>
+        <p>Set off on a stylish adventure with the <b>PORSCHE PANAMERA</b>. With its <b>SATIN YELLOW</b> finish, 
+            this luxury SUV guarantees an exciting drive.</p>
+            <tr>
+                <th>Available Cars</th>
+                <th>Model</th>
+                <th>Registeration</th>
+                <th>Car Info</th>
+              </tr>
+              <tr>
+                <td><img src="Screenshot 2025-01-29 185403.png" width="500" height="400" ></td>
+                <td><p>PORSCHE PANAMERA V6 3LITRE ENGINE</p>
+                  <p>2014</p>
+                </td>
+                <td> TN Reg </td>
+                <td>
+                  <ul>
+                      <li>🔘 Diesel variant</li>
+                      <li>🔘 35,000 KM</li>
+                      <li>🔘 ₹40,00,000</li>
+                      <li>🔘 HORSEPOWER 420</li>
+                      <li>🔘 Insurance current</li>
+                  </ul>
+                  
+                  <p>Set off on a stylish adventure with the <b>PORSCHE PANAMERA</b>. With its <b>SATIN YELLOW</b> finish, 
+                      this luxury SUV guarantees an exciting drive. From its classy design to its advanced features, 
+                      every part of the PORSCHE screams quality.</p>
+                    <p>Experience a ride that blends power and elegance, and redefine your driving experiences. 
+                      Give it a try and feel the difference for yourself.</p>
+                     <p>It is a mid-engine sports car that was manufactured by the German automobile manufacturer 
+                      and ranked number eight on its <b>Top Sports Cars of All Time</b> list. For its advanced technology 
+                      and development of its chassis, the PORSCHE PANAMERA remains a legendary vehicle.</p>
+              </td>
+              
+                
+              </tr>
+              <tr>
+                <td><img src="Screenshot 2024-08-15 200658.png" width="500" height="400" ></td>
+                <td><p> Q5 2.0TI</p>
+                  <p>2015</p>
+                </td>
+                <td> TN Reg </td>
+                <td>
+                  <ul>
+                    <li>🔘 Single owner</li>
+                    <li>🔘 85000 KM</li>
+                    <li>🔘 DEISAL</li>
+                    <li>🔘 Finance and Exchange available</li>
+                    <li>🔘 Rs 28,95,000</li>
+                    <li>🔘 insurance current</li>
+                  </ul>
+                  <p>Set off on a stylish adventure with <b>Q5 2.0TDI</b>  the With its sleek WHITE finish,
+                   this luxury<b> SUV QUTTRO DRIVE</b> guarantees an exciting drive .</p>
+                    From its classy design to its advanced features, every part of the<b> AUDI Q5 VETC</b> screams quality. 
+                    Experience a ride that blends power and elegance, and redefine your driving experiences.
+                   Give it a try and feel the difference for yourself
+                  </td>
+              </tr>
+              <tr>
+                <td><img src="Screenshot 2024-08-15 200733.png" width="500" height="400" ></td>
+                <td><p>VOLVO S60 POLE STAR</p> 
+                  <p>2020</p>
+                   </td>
+                <td>TN Reg</td>
+                <td>
+                  <li>🔘 single owner</li>
+                  <li>🔘 TN reg</li>
+                  <li>🔘 14000 KM</li>
+                  <li>🔘 Finance and Exchange available</li>
+                  <li>🔘 Rs 42,00,000</li>
+                  <li>🔘 insurance current</li>
+                  
+                 <p> Set off on a stylish adventure with <b>VOLVO S60 POLE STAR </b>the With its sleek<b> BLUE </b>,
+                   this <b>luxury SEDAN</b> guarantees an exciting drive.</p> From its classy design to its advanced features,
+                    every part of the VOLVO screams quality. Experience a ride that blends power and elegance,
+                     and redefine your driving experiences.
+                   Give it a try and feel the difference for yourself
+                  </td>
+              </tr>
+              <tr>
+                <td><img src="Screenshot 2024-08-15 202158.png" width="500" height="400" ></td>
+                <td><p>Audi A6 Matrix</p>
+                     <p>2016</p></td>
+                <td>TN Reg</td>
+                <td>
+                  <li>40000 km</li>
+                   <li>Proper company service records</li> 
+                   <li> Premium plus</li>
+                  
+                  
+                  <P>Set off on a stylish adventure with the<b> Audi A6 MATRIX </b>.
+                   With its sleek white finish, this<b> luxury Sedan</b> guarantees an exciting drive .</P>
+                    From its classy design to its advanced features, every part of the AUDI A6 screams quality.
+                     Experience a ride that blends power and elegance,
+                   and redefine your driving experiences.
+                    Give it a try and feel the difference for yourself</td>
+              </tr>
+              
+            
+              <tr>
+                <td><img src="Screenshot 2024-08-15 202142.png" width="500" height="400" ></td>
+                <td><p> BMW X3</p>
+                <p>2017</p></td>
+                <td>TN Reg</td>
+              </td>
+              <td>
+                <li> 2017 model</li>
+                <li>Panaromic sunroof</li> 
+                <li> Diesel automatic</li>
+                <li> insurance current</li>
+            
+                  <p>Set off on a stylish adventure with the <b>B M W X3</b> .
+                   With its Sleek White finish, this luxury guarantees an exciting drive .</p>
+                    From its classy design to its advanced features, every part of the BMW screams quality.
+                     Experience a ride that blends power and elegance,
+                   and redefine your driving experiences.
+                    Give it a try and feel the difference for yourself.
+              </td>
+              <tr>
+                <p></p>
+                <td><img src="Screenshot 2024-08-15 202002.png" width="500" height="400" ></td>
+                <td><p>Mercedes Benz A200D</p>
+                   <p>2016</p>
+                   </td>
+                <td>TN reg</td>
+                <Td>
+                  <li> Single owner</li>
+                  <li> Diesel</li>
+                  <li>1,00,000 KM</li>
+                  <li>Rs,16,95000</li>
+                  <li>insurance current</li>
+                  <p>
+                  Set off on a stylish adventure with the <b>BENZ A200D</b>. With its sleek Green finish,
+                   this luxury Sedan guarantees an exciting drive .
+                    From its classy design to its advanced features,</p>
+                    every part of the Benz screams quality. Experience a ride that blends power and elegance,
+                   and redefine your driving experiences. Give it a try and feel the difference for yourself.</Td>
+              </tr>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h1>Our Services</h1>
+        <p>📍 Visit our Update Cars showroom @ Salem</p>
+        <p>📞 Call us at +91 - 8675689790 / 6382163123</p>
+        <p>💰 Finance Arrangements | 🚗 Pan-India Delivery | 📜 Insurance | ⭐ Exclusive Privilege</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Update Cars | Designed with ❤️ by Update Cars Team</p>
+    </footer>
+
+</body>
+</html>
